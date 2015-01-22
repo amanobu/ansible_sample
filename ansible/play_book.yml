@@ -1,0 +1,7 @@
+---
+- hosts: ap_servers
+  connection: local
+  sudo: True
+  roles:
+    - tomcat
+    - apache
