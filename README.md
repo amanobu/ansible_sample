@@ -8,7 +8,9 @@ Apache+Tomcatの環境をよく使うのでAnsibleのお試しで作ってみた
 * Tomcat 8
 
 ##準備
-cloneしてansible配下で
+必要なgit,ansibleは事前に動く様にしてください
+
+git cloneしてansible_sample配下で
 
 ansible-playbook -i hosts play.yml
 
