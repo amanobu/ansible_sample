@@ -26,8 +26,9 @@ ansible-playbook -i hosts play.yml
 * tomcat,apacheを立ち上げます
 
 ##動作確認
-* curl http://localhost/examples/
-  で動作確認出来るかと。tomcat付属のexample Webappのレスポンスが帰ってくればＯＫかと
+curl http://localhost/examples/
+
+で動作確認出来るかと。tomcat付属のexample Webappのレスポンスが帰ってくればＯＫかと
 
 ##その他
 * Vagrantも使える様にする為の定義も入れています。環境があれば「vagrant up」だけで上記環境が出来るはず
